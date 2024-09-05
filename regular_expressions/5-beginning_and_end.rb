@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/^h.n$/).join
-
+# checks a regex
+puts ARGV[0].scan(/^h.{1}n$/).join
